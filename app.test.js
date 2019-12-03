@@ -7,6 +7,6 @@ describe('GET /', () => {
       .get('/')
       .expect(200)
       .expect('Content-Type', /text/)
-      .expect('PROJECT_NAME')
+      .expect(/PROJECT_NAME/)
   })
 })
